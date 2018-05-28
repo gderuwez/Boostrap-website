@@ -1,0 +1,39 @@
+#imageTest {
+  height : 250px;
+  width: 100%;
+  /* background-image: url('../assets/images/menu.jpeg'); */
+  background-color: red;
+  /* background-size: cover; */
+  z-index: 2;
+  border: 1px solid red;
+}
+
+@media screen and (min-width: 992px) {
+ .image {
+   height: 450px;
+ }
+}
+
+/* .navbar {
+  margin-bottom: 0;
+} */
+
+.mT50 {
+  margin-top: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+.mT70 {
+  margin-top: 70px;
+}
+
+.mT20 {
+  margin-top: 20px;
+}
+
+.form-group {
+  width: 80%;
+}
