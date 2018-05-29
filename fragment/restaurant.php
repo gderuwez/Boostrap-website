@@ -1,24 +1,45 @@
 <?php
   include('./partials/header.php');
 ?>
-<div class="container">
-  <div class="col-md-5 col-md-offset-1">
-    <h2>Restaurant 1</h2>
-    125 completely made up 7090 Fictionville.
-    <h3>Heures d'ouvertures</h3>
-    <p>Lundi-vendredi: 10h00 - 21h00</p>
-    <p>Samedi & dimanche : 10 - 22h00</p>
-    <div id="map1" style="width:100%;height:400px;"></div>
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-md-7">
+      <div id="map1" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="col-md-5">
+      <h1>Restaurant 1</h1>
+      125 completely made up <br> 7090 Fictionville.
+    </div>
   </div>
-  <div class="col-md-5">
-    <h2>Restaurant 2</h2>
-    125 completely made up 7090 Fictionville.
-    <h3>Heures d'ouvertures</h3>
-    <p>Lundi-vendredi: 10h00 - 21h00</p>
-    <p>Samedi & dimanche : 10 - 22h00</p>
-    <div id="map2" style="width:100%;height:400px;"></div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Heures d'ouvertures</h3>
+      Lundi-vendredi: 10h00 - 21h00 <br>
+      Samedi & dimanche : 10 - 22h00
+    </div>
+    <div class="col-md-8">
+      lorem ipsum
+    </div>
   </div>
-</div>
+  <div class="row">
+    <div class="col-md-7">
+      <div id="map2" style="width:100%;height:400px;"></div>
+    </div>
+    <div class="col-md-5">
+      <h1>Restaurant 1</h1>
+      125 completely made up <br> 7090 Fictionville.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Heures d'ouvertures</h3>
+      Lundi-vendredi: 10h00 - 21h00 <br>
+      Samedi & dimanche : 10 - 22h00
+    </div>
+    <div class="col-md-8">
+      lorem ipsum
+    </div>
+  </div>
 
 <script>
 function myMap1() {
