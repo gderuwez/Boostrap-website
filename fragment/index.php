@@ -4,12 +4,15 @@
 
 
 <div class="jumbotron jumbotron-fluid" id="imageTest">
+  <div class="text text-center h1">
+    L'étoile
+  </div>
 </div>
 <div class="container">
   <div class="row">
       <div class="col-md-6">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header bg-wood">
             <h3>Opening of a new restaurant in Brussels</h3>
           </div>
           <div class="card-body">
@@ -20,7 +23,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-header">
+          <div class="card-header bg-wood">
             <h3>New dish</h3>
           </div>
           <div class="card-body">
@@ -31,7 +34,7 @@
           </div>
         </div>
         <div class="card">
-          <div class="card-header">
+          <div class="card-header bg-wood">
             <h3>Lorem ipsum</h3>
           </div>
           <div class="card-body">
@@ -46,7 +49,7 @@
       </div>
       <div class="col-md-6">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header bg-wood">
             <h3>Promotions</h3>
           </div>
           <div class="card-body">

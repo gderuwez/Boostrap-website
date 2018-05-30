@@ -24,13 +24,16 @@ $("#pOne").click(function(){
   $("#imTwo").attr("src", "../assets/images/spinahc-beetroot-salad.jpg");
   $("#imThree").attr("src", "../assets/images/spinach-chicken-pomegranate-salad");
   $(this).addClass('active');
+  $("#pTwo, #pThree, #pFour").removeClass('active');
 });
 
-$("#pTwo").click(function(){
+$("#pTwo").on('click', function(){
+  console.log("test");
   $("#imOne").attr("src", "../assets/images/fried-vegetables.jpeg");
   $("#imTwo").attr("src", "../assets/images/garlic-shrimp.jpeg");
   $("#imThree").attr("src", "../assets/images/shrimp-ramen.jpeg");
   $(this).addClass('active');
+  $("#pOne, #pThree, #pFour").removeClass('active');
 });
 
 $("#pThree").click(function(){
@@ -38,6 +41,7 @@ $("#pThree").click(function(){
   $("#imTwo").attr("src", "../assets/images/steak.jpeg");
   $("#imThree").attr("src", "../assets/images/wines.jpeg");
   $(this).addClass('active');
+  $("#pTwo, #pOne, #pFour").removeClass('active');
 });
 
 $("#pFour").click(function(){
@@ -45,4 +49,5 @@ $("#pFour").click(function(){
   $("#imTwo").attr("src", "../assets/images/chocolate-cake.jpeg");
   $("#imThree").attr("src", "../assets/images/pancakes.jpeg");
   $(this).addClass('active');
+  $("#pTwo, #pThree, #pOne").removeClass('active');
 });

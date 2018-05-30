@@ -1,7 +1,7 @@
 <?php
   include('./partials/header.php');
 ?>
-<div class="container mt-4">
+<div class="container mt-4 bg-grey">
       <form action="index.html" method="post">
         <div class="form-group">
           <label for="Nom" class="h2">Nom</label>
@@ -16,7 +16,7 @@
           <input type="text" class="form-control" id="email" placeholder="eMail" name="email">
         </div>
         <div class="form-group">
-          <label for="select" class="h2">But de votre contact</label>
+          <label for="select" class="h2" data-toggle="tooltip" title="Select the reason for contacting us">But de votre contact</label>
           <select class="form-control" name="select1">
             <option>Reservation</option>
             <option>Commandation</option>
@@ -27,6 +27,7 @@
         <div class="form-group">
           <textarea name="select2" rows="8" cols="50"></textarea>
         </div>
+        <i class="far fa-envelope-open"></i>
         <button type="submit" name="button" class="btn btn-primary">Submit</button>
       </form>
 </div>
