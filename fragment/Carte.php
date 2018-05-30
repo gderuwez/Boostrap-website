@@ -2,7 +2,7 @@
   include('./partials/header.php');
 ?>
 
-<div class="container mt-2 bg-creme">
+<div class="container mt-2 bg-creme mt-5 pt-3">
   <div class="row">
     <div class="col-md-6">
       <div class="row">

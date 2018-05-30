@@ -1,5 +1,4 @@
-  <script src="../assets/script/script.js">
+  <script src="../assets/script/script.js"></script>
 
-  </script>
 </body>
 </html>

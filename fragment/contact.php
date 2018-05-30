@@ -1,7 +1,7 @@
 <?php
   include('./partials/header.php');
 ?>
-<div class="container mt-4 bg-grey">
+<div class="container mt-5 pt-4 bg-grey">
       <form action="index.html" method="post">
         <div class="form-group">
           <label for="Nom" class="h2">Nom</label>

@@ -3,7 +3,7 @@
 ?>
 
 
-<div class="jumbotron jumbotron-fluid" id="imageTest">
+<div class="jumbotron jumbotron-fluid mt-5" id="imageTest">
   <div class="text text-center h1">
     L'étoile
   </div>
