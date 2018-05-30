@@ -6,7 +6,7 @@
   <div class="row">
     <div class="col-md-6">
       <div class="row">
-        <a class="font-cursive h1 col-12" href="#entrance" data-toggle="collapse">Entrance</a>
+        <a class="font-cursive h1 col-12 text-center" href="#entrance" data-toggle="collapse">Entrance</a>
       </div>
       <div class="row">
         <ul id="entrance" class="list-group collapse col-12">
@@ -17,7 +17,7 @@
         </ul>
       </div>
       <div class="row">
-        <a class="font-cursive mt-3 h1 col-12" href="#main" data-toggle="collapse">Main courses</a>
+        <a class="font-cursive mt-3 h1 col-12 text-center" href="#main" data-toggle="collapse">Main courses</a>
       </div>
       <div class="row">
         <ul class="list-group collapse col-12" id="main">
@@ -29,7 +29,7 @@
       </div>
 
       <div class="row">
-        <a class="font-cursive mt-3 h1 col-12" href="#desserts" data-toggle="collapse">Desserts</a>
+        <a class="font-cursive mt-3 h1 col-12 text-center" href="#desserts" data-toggle="collapse">Desserts</a>
       </div>
       <div class="row">
         <ul class="list-group collapse col-12" id="desserts">
@@ -43,7 +43,7 @@
 
     <div class="col-md-6">
       <div class="row">
-        <a class="font-cursive mt-md-0 mt-3 h1 col-12" href="#snacks" data-toggle="collapse">Snacks</a>
+        <a class="font-cursive mt-md-0 mt-3 h1 col-12 text-center" href="#snacks" data-toggle="collapse">Snacks</a>
       </div>
       <div class="row">
         <ul class="list-group collapse col-12" id="snacks">
@@ -55,7 +55,7 @@
       </div>
 
       <div class="row">
-        <a class="font-cursive mt-3 h1 col-12" href="#drinks" data-toggle="collapse">Drinks</a>
+        <a class="font-cursive mt-3 h1 col-12 text-center" href="#drinks" data-toggle="collapse">Drinks</a>
       </div>
       <div class="row">
         <ul class="list-group collapse col-12" id="drinks">
@@ -68,9 +68,6 @@
     </div>
   </div>
 </div>
-
-
-
 
 <?php
 include('./partials/footer.php');
