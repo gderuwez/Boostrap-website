@@ -21,6 +21,16 @@
   }
 }
 
+.wine {
+  background-image: url('../images/wines.jpeg');
+  background-size: cover;
+}
+
+.gallery {
+  background-image: url('../images/gallery.jpg');
+  background-size: cover;
+}
+
 .bg-wood {
   background-image: url('../images/wood-texture.jpg');
   background-size: cover;

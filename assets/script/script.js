@@ -1,3 +1,15 @@
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('projet_boostrap_resto/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
  $(window).on('load', function(){
    switch (window.location.pathname) {
      case '/projet_boostrap_resto/fragment/index.php':
@@ -5,9 +17,11 @@
        break;
      case '/projet_boostrap_resto/fragment/Carte.php':
        $('#carte').addClass('active');
+       $("body").addClass('wine');
        break;
       case '/projet_boostrap_resto/fragment/gallery.php':
         $('#gallery').addClass('active');
+        $("body").addClass('gallery');
         break;
       case '/projet_boostrap_resto/fragment/restaurant.php':
         $('#restaurant').addClass('active');
