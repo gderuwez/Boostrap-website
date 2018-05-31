@@ -2,19 +2,16 @@
   include('./partials/header.php');
 ?>
 <div class="container">
-  <div class="row mt-md-2">
-    <div class="col-md-6 mb-2 mb-md-0 zoom">
+  <div class="row mt-md-5 pt-md-5">
+    <div class="col-md-4 zoom">
       <img id="imOne" src="../assets/images/salmon-filet.jpeg" alt="salmon filet" class="img-fluid mb-2">
     </div>
-    <div class="col-md-6 mb-2 mb-md-0 zoom">
+    <div class="col-md-4 zoom">
       <img id="imTwo" src="../assets/images/spinahc-beetroot-salad.jpg" alt="spinach and beetroot salad" class="img-fluid">
     </div>
-  </div>
-
-  <div class="row mt-md-2">
-   <div class="col-md-6 offset-md-3 zoom">
-     <img id="imThree" src="../assets/images/spinach-chicken-pomegranate-salad" alt="spinach chicken pomegranate salad" class="img-fluid">
-   </div>
+    <div class="col-md-4 zoom">
+      <img id="imThree" src="../assets/images/spinach-chicken-pomegranate-salad" alt="spinach chicken pomegranate salad" class="img-fluid">
+    </div>
   </div>
 
   <ul class="pagination justify-content-center mt-4">

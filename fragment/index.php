@@ -4,8 +4,14 @@
 
 
 <div class="jumbotron jumbotron-fluid mt-5" id="imageTest">
-  <div class="text text-center h1">
-    L'étoile
+  <div class="row">
+    <div class="col-4 offset-4"><div class="card">
+      <div class="card-body bg-warning">
+        <div class="text-center h1">
+          L'étoile
+        </div>
+      </div>
+    </div></div>
   </div>
 </div>
 <div class="container">

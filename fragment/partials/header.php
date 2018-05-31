@@ -28,7 +28,7 @@
       <li class="nav-item" id="home">
         <a class="nav-link" href="./index.php">Home</a>
       </li>
-      <li class="nav-item" id="menu">
+      <li class="nav-item" id="carte">
         <a class="nav-link" href="./Carte.php">Menu</a>
       </li>
       <li class="nav-item" id="gallery">
