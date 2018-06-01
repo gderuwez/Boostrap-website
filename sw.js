@@ -5,17 +5,13 @@ self.addEventListener('install', function(event) {
         '/',
         '/projet_boostrap_resto/',
         '/projet_boostrap_resto/fragment/',
+        '/projet_boostrap_resto/fragment/index.html',
         '/projet_boostrap_resto/assets/',
         '/projet_boostrap_resto/assets/style/',
         '/projet_boostrap_resto/assets/script/',
         '/projet_boostrap_resto/assets/images/',
-        '/projet_boostrap_resto/fragment/index.php',
-        '/projet_boostrap_resto/fragment/Carte.php',
-        '/projet_boostrap_resto/fragment/contact.php',
-        '/projet_boostrap_resto/fragment/gallery.php',
-        '/projet_boostrap_resto/fragment/restaurant.php',
         '/projet_boostrap_resto/assets/style/style.css',
-        '/projet_boostrap_resto/assets/script/script.min.js',
+        '/projet_boostrap_resto/assets/script/script.js',
         '/projet_boostrap_resto/assets/images/blueberry-parfait.jpeg',
         '/projet_boostrap_resto/assets/images/chocolate-cake.jpeg',
         '/projet_boostrap_resto/assets/images/fried-vegetables.jpeg',
@@ -32,6 +28,8 @@ self.addEventListener('install', function(event) {
         '/projet_boostrap_resto/assets/images/steak.jpeg',
         '/projet_boostrap_resto/assets/images/wines.jpeg',
         '/projet_boostrap_resto/assets/images/wood-texture.jpg',
+        '/projet_boostrap_resto/assets/images/icon-192.png',
+        '/projet_boostrap_resto/assets/images/icon-512.png'
       ]);
     })
   );
@@ -44,20 +42,3 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
-
-/*self.addEventListener('fetch', function(event) {
-  event.respondWith(
-    caches.match(event.request).then(function(resp) {
-      return resp || fetch(event.request).then(function(response) {
-        let responseClone = response.clone();
-        caches.open('v1').then(function(cache) {
-          cache.put(event.request, responseClone);
-        });
-
-        return response;
-      });
-    }).catch(function() {
-      return caches.match('/projet_boostrap_resto/fragment/assets/images/wood-texture.jpg');
-    })
-  );
-});*/

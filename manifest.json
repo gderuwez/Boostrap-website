@@ -1,0 +1,21 @@
+{
+  "short_name": "Resto",
+  "name": "Resto l'étoile",
+  "icons": [
+  {
+    "src": "./assets/images/icon-192.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  },
+  {
+    "src": "./assets/images/icon-512.png",
+    "type": "image/png",
+    "sizes": "512x512"
+  }
+],
+  "start_url": "/projet_boostrap_resto/fragment/index.html",
+  "display": "fullscreen",
+  "background_color": "#FFFADB",
+  "scope": "/projet_boostrap_resto/",
+  "theme_color": "#317EFB"
+}

@@ -1,7 +1,46 @@
-<?php
-  include('./partials/header.php');
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Site de restaurant">
+  <meta name="theme-color" content="#317EFB"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/style/style.css" defer>
+  <link rel="manifest" href="../manifest.json">
+  <title>Franchise Restaurant</title>
+</head>
+<body class="bg-creme">
 
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+
+  <!-- Toggler/collapsibe Button -->
+  <button aria-label="menu" name="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item active" id="home">
+        <a class="nav-link" href="./index.html">Home</a>
+      </li>
+      <li class="nav-item" id="carte">
+        <a class="nav-link" href="./Carte.html">Menu</a>
+      </li>
+      <li class="nav-item" id="gallery">
+        <a class="nav-link" href="./gallery.html">Gallery</a>
+      </li>
+      <li class="nav-item" id="restaurant">
+        <a class="nav-link" href="./restaurant.html">Restaurant</a>
+      </li>
+      <li class="nav-item" id="contact">
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 
 <div class="jumbotron jumbotron-fluid mt-5" id="imageTest">
   <div class="row">
@@ -15,7 +54,7 @@
   </div>
 </div>
 <main>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
         <div class="col-md-6">
           <div class="card">
@@ -71,8 +110,10 @@
     </div>
   </div>
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="../assets/script/script.js"></script>
 
-
-<?php
-include('./partials/footer.php');
- ?>
+</body>
+</html>
