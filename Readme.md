@@ -11,6 +11,7 @@ Realized by Guillaume Deruwez.
 1. 30/05/2018: 13:53 : problems fixed css: started.
 1. 30/05/2018: 14:39 : menu fixed top, css continued.
 1. 31/05/2018: 10:25 : Gallery improved, navbar issue fixed in script, improved look
+1. 01/06/2018: 12:05 : Creation of web app manifest
 -----------------------------------------
 ## Things to fix
 
