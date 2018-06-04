@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["assets/images/blueberry-parfait.jpeg","44e751708f9c49b4eb5fc700ad649715"],["assets/images/chocolate-cake.jpeg","33038de652dca0f9b1eac796a3c96b23"],["assets/images/fried-vegetables.jpeg","69cd1cdba7f1a19adfc06ab65bfad1b3"],["assets/images/gallery.jpg","18c747e7ce9d041d36adb8bbddfb7867"],["assets/images/garlic-shrimp.jpeg","bb8fc0e1498dcfbf0e9460a9181bbfa2"],["assets/images/green-celtic-vine-hi.png","e6bdcefd6fef546f267bfbd326137a9f"],["assets/images/icon-192.png","0019d642a728cca76fe7994470602d0b"],["assets/images/icon-512.png","25799a1061b1f9dfa1f5d68066fdc628"],["assets/images/menu.jpeg","b4494f55a49e3fdfdd4cbd12f3577836"],["assets/images/pancakes.jpeg","9625911e2db976853577931808ed1e44"],["assets/images/salmon-filet.jpeg","0950441db28c2b1bd5e37059d99c4b55"],["assets/images/shrimp-ramen.jpeg","6282ae39142edd50cc7e1763583569f4"],["assets/images/spaghetti.jpg","578c2951be3cf5401f9b81a42e25caf2"],["assets/images/spinach-chicken-pomegranate-salad.jpg","0d06ead7e9c86734d33ae1ca6713d094"],["assets/images/spinahc-beetroot-salad.jpg","4c7ca6cca3f3c47641410f0b27f7ca13"],["assets/images/steak.jpeg","a54c0fc73ae923cfebd1834a4d23e391"],["assets/images/wines.jpeg","bb14085c796e6682eadf2650d4a2ce95"],["assets/images/wood-texture.jpg","e1c7cecf3a458c708a1a9798110676bd"],["assets/script/script.js","7eb24ee35ae006ba3c39714636cadaf0"],["assets/style/style.css","21d877145b9f34fb64f1a6478e14a8a5"],["fragment/Carte.html","8876e456aa7a6a0549940e54a4077a99"],["fragment/contact.html","f716a6ec98913ad5d979cb7eedc3afe3"],["fragment/gallery.html","854824429fedbb8e3fb8dcefdc0c538a"],["fragment/index.html","3076b313a4c36bb55adcdf9b309fc064"],["fragment/restaurant.html","19fe04e1d19444015d2b7367ae52e12d"],["manifest.json","7bf03a6f07348e73325fdc5d052911b8"],["sw.js","97e92ba962dd651e0a6e0a155b8ca60b"]];
+var precacheConfig = [["Readme.md","e33f50bb67d670bae80bf2ccf18e2696"],["assets/images/blueberry-parfait.jpeg","44e751708f9c49b4eb5fc700ad649715"],["assets/images/chocolate-cake.jpeg","33038de652dca0f9b1eac796a3c96b23"],["assets/images/fried-vegetables.jpeg","69cd1cdba7f1a19adfc06ab65bfad1b3"],["assets/images/gallery.jpg","18c747e7ce9d041d36adb8bbddfb7867"],["assets/images/garlic-shrimp.jpeg","bb8fc0e1498dcfbf0e9460a9181bbfa2"],["assets/images/green-celtic-vine-hi.png","e6bdcefd6fef546f267bfbd326137a9f"],["assets/images/icon-192.png","0019d642a728cca76fe7994470602d0b"],["assets/images/icon-512.png","25799a1061b1f9dfa1f5d68066fdc628"],["assets/images/menu.jpeg","565d014ebe46b813a5f2e89f541b254b"],["assets/images/pancakes.jpeg","9625911e2db976853577931808ed1e44"],["assets/images/salmon-filet.jpeg","0950441db28c2b1bd5e37059d99c4b55"],["assets/images/shrimp-ramen.jpeg","6282ae39142edd50cc7e1763583569f4"],["assets/images/spaghetti.jpg","578c2951be3cf5401f9b81a42e25caf2"],["assets/images/spinach-chicken-pomegranate-salad.jpg","0d06ead7e9c86734d33ae1ca6713d094"],["assets/images/spinahc-beetroot-salad.jpg","4c7ca6cca3f3c47641410f0b27f7ca13"],["assets/images/steak.jpeg","a54c0fc73ae923cfebd1834a4d23e391"],["assets/images/wines.jpeg","bb14085c796e6682eadf2650d4a2ce95"],["assets/images/wood-texture.jpg","e1c7cecf3a458c708a1a9798110676bd"],["assets/script/script.js","6a31284cc3c26eace55d9a0898b63a96"],["assets/style/style.css","21d877145b9f34fb64f1a6478e14a8a5"],["fragment/Carte.html","8876e456aa7a6a0549940e54a4077a99"],["fragment/contact.html","f716a6ec98913ad5d979cb7eedc3afe3"],["fragment/gallery.html","854824429fedbb8e3fb8dcefdc0c538a"],["fragment/index.html","3076b313a4c36bb55adcdf9b309fc064"],["fragment/restaurant.html","19fe04e1d19444015d2b7367ae52e12d"],["manifest.json","7bf03a6f07348e73325fdc5d052911b8"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -176,10 +176,10 @@ self.addEventListener('install', function(event) {
         );
       });
     }).then(function() {
-
+      
       // Force the SW to transition from installing -> active state
       return self.skipWaiting();
-
+      
     })
   );
 });
@@ -199,9 +199,9 @@ self.addEventListener('activate', function(event) {
         );
       });
     }).then(function() {
-
+      
       return self.clients.claim();
-
+      
     })
   );
 });
@@ -259,3 +259,10 @@ self.addEventListener('fetch', function(event) {
     }
   }
 });
+
+
+
+
+
+
+
