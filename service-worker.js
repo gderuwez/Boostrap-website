@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["Readme.md","e33f50bb67d670bae80bf2ccf18e2696"],["assets/images/blueberry-parfait.jpeg","44e751708f9c49b4eb5fc700ad649715"],["assets/images/chocolate-cake.jpeg","33038de652dca0f9b1eac796a3c96b23"],["assets/images/clear.png","e17de36d2c2ddf7b068892fa4678cd31"],["assets/images/cloudy-scattered-showers.png","855f638a52b7fbc1ec2a3d596fedbd28"],["assets/images/cloudy.png","6b2148e05e5fe4bf2a218438afcb6d3c"],["assets/images/cloudy_s_sunny.png","827577d4371bd0c83789fac7a2fe1546"],["assets/images/fog.png","44f56cff88530b5e3315890d6c209ac2"],["assets/images/fried-vegetables.jpeg","69cd1cdba7f1a19adfc06ab65bfad1b3"],["assets/images/gallery.jpg","18c747e7ce9d041d36adb8bbddfb7867"],["assets/images/garlic-shrimp.jpeg","bb8fc0e1498dcfbf0e9460a9181bbfa2"],["assets/images/green-celtic-vine-hi.png","e6bdcefd6fef546f267bfbd326137a9f"],["assets/images/ic_add_white_24px.svg","c3379830302abe84f64db87b5bac9faa"],["assets/images/ic_refresh_white_24px.svg","f73272d4efd233a85e8c649d26126f01"],["assets/images/icon-192.png","0019d642a728cca76fe7994470602d0b"],["assets/images/icon-512.png","25799a1061b1f9dfa1f5d68066fdc628"],["assets/images/icons/icon-128x128.png","b1b0f7b8adb5bb5568c370b1c8af29e9"],["assets/images/icons/icon-144x144.png","928538579a59f24888281462ce75ef7a"],["assets/images/icons/icon-152x152.png","300cd90366750e4abbab2205d219624e"],["assets/images/icons/icon-192x192.png","ac65b2a8d6e7ad80fdab29f76edd91c7"],["assets/images/icons/icon-256x256.png","827577d4371bd0c83789fac7a2fe1546"],["assets/images/icons/icon-32x32.png","940d8b2f15cc3bee9e6997f9408bbea7"],["assets/images/menu.jpeg","565d014ebe46b813a5f2e89f541b254b"],["assets/images/pancakes.jpeg","9625911e2db976853577931808ed1e44"],["assets/images/partly-cloudy.png","a2e10546a6f7000e1b7d5846ba492f9b"],["assets/images/rain.png","5a2600b1199d1c95da554a5f97861c04"],["assets/images/salmon-filet.jpeg","0950441db28c2b1bd5e37059d99c4b55"],["assets/images/scattered-showers.png","ec178dbbcd45abb9db4be616801df3b0"],["assets/images/shrimp-ramen.jpeg","6282ae39142edd50cc7e1763583569f4"],["assets/images/sleet.png","15ee1fe8d87a5b1ca604eb56729f3f08"],["assets/images/snow.png","6f9fa355f32b353a18a1dd3f89ac3fd7"],["assets/images/spaghetti.jpg","578c2951be3cf5401f9b81a42e25caf2"],["assets/images/spinach-chicken-pomegranate-salad.jpg","0d06ead7e9c86734d33ae1ca6713d094"],["assets/images/spinahc-beetroot-salad.jpg","4c7ca6cca3f3c47641410f0b27f7ca13"],["assets/images/steak.jpeg","a54c0fc73ae923cfebd1834a4d23e391"],["assets/images/thunderstorm.png","c4df123a44c17a1b5d1e8b33b268ea5c"],["assets/images/wind.png","c1136285b55a50c206f0a96f64080767"],["assets/images/wines.jpeg","bb14085c796e6682eadf2650d4a2ce95"],["assets/images/wood-texture.jpg","1a1de27840b5ef6fe96272cc76053c6c"],["assets/script/app.js","f3d7aafe4e18454a1bd18f38a74baa44"],["assets/script/script.js","6a31284cc3c26eace55d9a0898b63a96"],["assets/style/inline.css","98f79135ce6320094f7c9feecf2fdc4f"],["assets/style/style.css","21d877145b9f34fb64f1a6478e14a8a5"],["fragment/Carte.html","a1f735db1d186dfdaddadc5e6258844e"],["fragment/contact.html","998ba34a9f5fb04838be2b554e48d06a"],["fragment/gallery.html","6705b882833e8237655de6a03aae689a"],["fragment/index.html","648938e86eda457cfdb20775983bdf79"],["fragment/restaurant.html","355e74d032c2038b027683ca9126c5a5"],["fragment/weather.html","0c46a434cecfb8134fd6320f76e7ef3a"],["manifest.json","7bf03a6f07348e73325fdc5d052911b8"]];
+var precacheConfig = [["Readme.md","e33f50bb67d670bae80bf2ccf18e2696"],["assets/images/blueberry-parfait.jpeg","44e751708f9c49b4eb5fc700ad649715"],["assets/images/chocolate-cake.jpeg","33038de652dca0f9b1eac796a3c96b23"],["assets/images/clear.png","e17de36d2c2ddf7b068892fa4678cd31"],["assets/images/cloudy-scattered-showers.png","855f638a52b7fbc1ec2a3d596fedbd28"],["assets/images/cloudy.png","6b2148e05e5fe4bf2a218438afcb6d3c"],["assets/images/cloudy_s_sunny.png","827577d4371bd0c83789fac7a2fe1546"],["assets/images/fog.png","44f56cff88530b5e3315890d6c209ac2"],["assets/images/fried-vegetables.jpeg","69cd1cdba7f1a19adfc06ab65bfad1b3"],["assets/images/gallery.jpg","18c747e7ce9d041d36adb8bbddfb7867"],["assets/images/garlic-shrimp.jpeg","bb8fc0e1498dcfbf0e9460a9181bbfa2"],["assets/images/green-celtic-vine-hi.png","e6bdcefd6fef546f267bfbd326137a9f"],["assets/images/ic_add_white_24px.svg","b09442e8f4b45894cf21566f0813453c"],["assets/images/ic_refresh_white_24px.svg","21e4c77a8b98c7516d6c7a97cdbddc22"],["assets/images/icon-192.png","0019d642a728cca76fe7994470602d0b"],["assets/images/icon-512.png","25799a1061b1f9dfa1f5d68066fdc628"],["assets/images/icons/icon-128x128.png","b1b0f7b8adb5bb5568c370b1c8af29e9"],["assets/images/icons/icon-144x144.png","928538579a59f24888281462ce75ef7a"],["assets/images/icons/icon-152x152.png","300cd90366750e4abbab2205d219624e"],["assets/images/icons/icon-192x192.png","ac65b2a8d6e7ad80fdab29f76edd91c7"],["assets/images/icons/icon-256x256.png","827577d4371bd0c83789fac7a2fe1546"],["assets/images/icons/icon-32x32.png","940d8b2f15cc3bee9e6997f9408bbea7"],["assets/images/menu.jpeg","565d014ebe46b813a5f2e89f541b254b"],["assets/images/pancakes.jpeg","9625911e2db976853577931808ed1e44"],["assets/images/partly-cloudy.png","a2e10546a6f7000e1b7d5846ba492f9b"],["assets/images/rain.png","5a2600b1199d1c95da554a5f97861c04"],["assets/images/salmon-filet.jpeg","0950441db28c2b1bd5e37059d99c4b55"],["assets/images/scattered-showers.png","ec178dbbcd45abb9db4be616801df3b0"],["assets/images/shrimp-ramen.jpeg","6282ae39142edd50cc7e1763583569f4"],["assets/images/sleet.png","15ee1fe8d87a5b1ca604eb56729f3f08"],["assets/images/snow.png","6f9fa355f32b353a18a1dd3f89ac3fd7"],["assets/images/spaghetti.jpg","578c2951be3cf5401f9b81a42e25caf2"],["assets/images/spinach-chicken-pomegranate-salad.jpg","0d06ead7e9c86734d33ae1ca6713d094"],["assets/images/spinahc-beetroot-salad.jpg","4c7ca6cca3f3c47641410f0b27f7ca13"],["assets/images/steak.jpeg","a54c0fc73ae923cfebd1834a4d23e391"],["assets/images/thunderstorm.png","c4df123a44c17a1b5d1e8b33b268ea5c"],["assets/images/wind.png","c1136285b55a50c206f0a96f64080767"],["assets/images/wines.jpeg","bb14085c796e6682eadf2650d4a2ce95"],["assets/images/wood-texture.jpg","1a1de27840b5ef6fe96272cc76053c6c"],["assets/script/app.js","004e9829fb8d9c26372294034f4698eb"],["assets/script/script.js","6a31284cc3c26eace55d9a0898b63a96"],["assets/style/inline.css","fd2fe01bf385828718cd16e1dfc6dd2c"],["assets/style/style.css","21d877145b9f34fb64f1a6478e14a8a5"],["fragment/Carte.html","a1f735db1d186dfdaddadc5e6258844e"],["fragment/contact.html","998ba34a9f5fb04838be2b554e48d06a"],["fragment/gallery.html","6705b882833e8237655de6a03aae689a"],["fragment/restaurant.html","355e74d032c2038b027683ca9126c5a5"],["fragment/weather.html","c3008598300d94c3c041da1b8a29c8c8"],["index.html","3913bdf7e8a549d770da26ef11650b2b"],["manifest.json","806c47859404dde050873988b1ce4ef4"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
