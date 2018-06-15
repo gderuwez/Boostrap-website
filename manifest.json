@@ -13,7 +13,7 @@
     "sizes": "512x512"
   }
 ],
-  "start_url": "/projet_boostrap_resto/fragment/index.html",
+  "start_url": "/projet_boostrap_resto/index.html",
   "display": "fullscreen",
   "background_color": "#FFFADB",
   "scope": "/projet_boostrap_resto/",
