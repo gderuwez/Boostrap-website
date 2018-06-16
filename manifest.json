@@ -13,9 +13,9 @@
     "sizes": "512x512"
   }
 ],
-  "start_url": "/projet_boostrap_resto/index.html",
+  "start_url": "/Boostrap-website/index.html",
   "display": "fullscreen",
   "background_color": "#FFFADB",
-  "scope": "/projet_boostrap_resto/",
+  "scope": "/Boostrap-website/",
   "theme_color": "#317EFB"
 }
