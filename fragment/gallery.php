@@ -10,39 +10,9 @@
   <link rel="manifest" href="../manifest.json">
   <title>Franchise Restaurant</title>
 </head>
-<body class="bg-creme">
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-
-  <!-- Toggler/collapsibe Button -->
-  <button aria-label="menu" name="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item" id="home">
-        <a class="nav-link" href="../index.html">Home</a>
-      </li>
-      <li class="nav-item" id="carte">
-        <a class="nav-link" href="./Carte.html">Menu</a>
-      </li>
-      <li class="nav-item active" id="gallery">
-        <a class="nav-link" href="./gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item" id="restaurant">
-        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-      </li>
-      <li class="nav-item" id="contact">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </li>
-      <li class="nav-item" id="weather">
-        <a class="nav-link" href="./weather.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<?php
+include 'menu.php';
+ ?>
 
 <main>
   <div class="container-fluid">
@@ -66,6 +36,10 @@
     </ul>
   </div>
 </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="../assets/script/script.js"></script>
 <script>
 $(document).ready(function(){
   $("#pOne").click(function(){
@@ -102,10 +76,5 @@ $(document).ready(function(){
   });
 });
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-<script src="../assets/script/script.js"></script>
-
 </body>
 </html>

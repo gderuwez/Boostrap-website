@@ -13,39 +13,9 @@
   <link rel="manifest" href="../manifest.json">
   <title>Franchise Restaurant</title>
 </head>
-<body class="bg-creme">
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-
-  <!-- Toggler/collapsibe Button -->
-  <button aria-label="menu" name="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item" id="home">
-        <a class="nav-link" href="../index.html">Home</a>
-      </li>
-      <li class="nav-item" id="carte">
-        <a class="nav-link" href="./Carte.html">Menu</a>
-      </li>
-      <li class="nav-item" id="gallery">
-        <a class="nav-link" href="./gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item active" id="restaurant">
-        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-      </li>
-      <li class="nav-item" id="contact">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </li>
-      <li class="nav-item" id="weather">
-        <a class="nav-link" href="./weather.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<?php
+include 'menu.php';
+ ?>
 
 <main>
   <div class="container-fluid mt-5 pt-4">
@@ -55,7 +25,7 @@
       </div>
       <div class="col-md-5">
         <div class="card">
-          <div class="card-header"><h1>Restaurant 1</h1></div>
+          <div class="card-header bg-wood"><h1>Restaurant 1</h1></div>
           <div class="card-body">125 completely made up <br> 7090 Fictionville.</div>
         </div>
       </div>
@@ -77,12 +47,12 @@
       </div>
     </div>
     <div class="row mt-3">
-      <div class="col-md-5">
+      <div class="col-md-7 col-lg-5">
         <div class="mx-auto" id="map2"></div>
       </div>
       <div class="col-md-5">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header bg-wood">
             <h1>Restaurant 2</h1>
           </div>
           <div class="card-body">

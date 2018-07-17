@@ -11,51 +11,16 @@
   <link rel="manifest" href="./manifest.json">
   <title>Franchise Restaurant</title>
 </head>
-<body class="bg-creme">
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-
-  <!-- Toggler/collapsibe Button -->
-    <button aria-label="menu" name="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-  <!-- Navbar links -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item active" id="home">
-        <a class="nav-link" href="./index.html">Home</a>
-      </li>
-      <li class="nav-item" id="carte">
-        <a class="nav-link" href="./fragment/Carte.html">Menu</a>
-      </li>
-      <li class="nav-item" id="gallery">
-        <a class="nav-link" href="./fragment/gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item" id="restaurant">
-        <a class="nav-link" href="./fragment/restaurant.html">Restaurant</a>
-      </li>
-      <li class="nav-item" id="contact">
-        <a class="nav-link" href="./fragment/contact.html">Contact</a>
-      </li>
-      <li class="nav-item" id="weather">
-        <a class="nav-link" href="./fragment/weather.html">Weather</a>
-      </li>
-    </ul>
-  </div>
-  </nav>
+<?php
+include './fragment/menu.php'
+ ?>
 
   <div class="jumbotron jumbotron-fluid mt-5" id="imageTest">
-    <div class="container">
-      <div class="row">
-        <div class="col-4 offset-4">
-          <div class="card">
-            <div class="card-body bg-warning">
-              <div class="text-center h1">
-                L'étoile
-              </div>
-            </div>
-          </div>
+    <div class="container resto-heading-cont">
+      <div class="row align-items-center text-center resto-heading-padding">
+        <div class="col-12">
+          <h1 class="text-white resto-heading">Welcome to L'étoile</h1>
+          <h5 class="text-light">Come and eat with the stars</h3>
         </div>
       </div>
     </div>

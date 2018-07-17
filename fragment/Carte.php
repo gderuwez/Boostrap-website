@@ -11,43 +11,23 @@
   <link rel="manifest" href="../manifest.json">
   <title>Franchise Restaurant</title>
 </head>
-<body class="bg-creme">
-
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-
-  <!-- Toggler/collapsibe Button -->
-  <button aria-label="menu" name="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item" id="home">
-        <a class="nav-link" href="../index.html">Home</a>
-      </li>
-      <li class="nav-item active" id="carte">
-        <a class="nav-link" href="./Carte.html">Menu</a>
-      </li>
-      <li class="nav-item" id="gallery">
-        <a class="nav-link" href="./gallery.html">Gallery</a>
-      </li>
-      <li class="nav-item" id="restaurant">
-        <a class="nav-link" href="./restaurant.html">Restaurant</a>
-      </li>
-      <li class="nav-item" id="contact">
-        <a class="nav-link" href="./contact.html">Contact</a>
-      </li>
-      <li class="nav-item" id="weather">
-        <a class="nav-link" href="./weather.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<?php
+include 'menu.php';
+ ?>
 
 <main>
   <div class="container-fluid mt-2 mt-5 pt-3">
     <div class="card">
+      <div class="card-header bg-wood">
+        <div class="col-12 text-center">
+          <h1>Delicious menu</h1>
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <p>Our menu is design to transport your sense to the furthest reaches of taste and appreciation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="card-body bg-light">
         <div class="row">
           <div class="col-md-6">

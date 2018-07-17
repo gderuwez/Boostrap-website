@@ -1,6 +1,21 @@
 #imageTest {
   background-image: url('../images/menu.jpg');
   background-size: cover;
+  opacity: 0.8;
+  height: 700px;
+  padding: 0;
+}
+
+.resto-heading {
+  font-size: 72px;
+}
+
+.resto-heading-cont {
+  min-height: 700px;
+}
+
+.resto-heading-padding{
+  padding-top: 35%;
 }
 
 #map1, #map2 {
